@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding-top: 4.2rem;
+}
+.purpleBg{
+  background-color: #563d7c;
+}
+nav ul{
+  display: inline-block;
+}
+.parrafoMain{
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.botonMorado{
+  color: #563d7c;
+  border-color: #563d7c;
+}
+
+.bgGris{
+  background-color: lightgray;
+}
+
+footer ul{
+  list-style: none;
+}
+ul li{
+display: inline;
+}
+
+.regla{
+  width: 6rem;
+  margin: 2.5rem 0;
+}
+.bootstrap{
+  font-size: 3rem;
+  color: #563d7c;
+  margin:2%;
+}
+.contenido{
+  box-sizing:border-box;
+}
+.colorIconos{
+  color: dodgerblue;
+  margin: 5%;
+}
+.publicidad{
+  background-color: rgba(0,0,0,.05);
+  padding: 3%;
+  overflow: hidden;
+}
+.publicidad img{
+  max-width: 130px;
+  float: left;
+}
+.textoPublicidad {
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
+}
+.borde{
+  border-width: thick;
+}

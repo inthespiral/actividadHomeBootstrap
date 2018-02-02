@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+<!-- Header -->
+<header class="fixed-top col-">
+  <nav class="navbar navbar-expand-lg navbar-dark purpleBg ">
+  <a class="navbar-brand " href="#">
+    <img src="assets/img/logo.svg" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+   <div class="navbar-nav">
+     <a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+     <a class="nav-item nav-link " href="#">Blog</a>
+   </div>
+ </div>
+</nav>
+</header>
+<!-- fin header -->
+
+<!-- Contenido principal -->
+<article class="col main text-center ">
+  <div class="row">
+  <section class="imgMain  col-6 mx-auto col-md-6 order-md-2 ">
+    <img src="assets/img/bootstrap-stack.png" alt="" class="img-fluid">
+  </section>
+
+  <section class="parrafoMain text-justify text-md-left col-md-6 ">
+    <h2 class="text-center bootstrap">Bootstrap</h2>
+    <p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+    <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+    <div class="col text-center">
+      <button type="button" class="btn btn-outline-dark botonMorado  m-1 ">Get started</button>
+      <button type="button" class="btn btn-outline-dark   m-1 ">Download</button>
+    </div>
+    <section class="version">
+      <p>Currently v4.0.0</p>
+    </section>
+
+    <!-- publicidad -->
+    <section class="publicidad col">
+      <a href="#">
+      <img src="assets/img/32052.png" alt="">
+      </a>
+      <div class="">
+        <a href="#" class="textoPublicidad">
+          <p class="p-2 pl-2">All the tools your team needs in one place. Slack:Where work happens</a>
+          </p>
+      </div>
+
+    </section>
+    <!-- fin publicidad -->
+  </section>
+  </div>
+
+
+
+</article>
+
+<!-- fin del contenido principal -->
+
+<!-- comienza el contenido tecnico -->
+
+<article class="container-fluid">
+  <div class="contenido col- row mt-5">
+  <section class="bg-light  col-12 col-md-4 border border-white borde">
+    <i class="fas fa-download fa-2x colorIconos"></i>
+    <h3>Installation</h3>
+    <p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>
+    <code class="col-12">$ npm install bootstrap</code>
+    <code class="col-12">$ gem install bootstrap -v 4.0.0</code>
+    <hr class="regla">
+    <button type="button" class="btn btn-outline-primary m-3 p-1">Read installation docs</button>
+  </section>
+
+  <section class="bg-light  col-12 col-md-4 border border-white">
+    <i class="fas fa-cloud-download-alt fa-2x colorIconos"></i>
+    <h3>BootstrapCDN</h3>
+    <p>When you only need to include Bootstrap's compiled CSS or JS, you can use BootstrapCDN.</p>
+    <h4>CSS only</h4>
+    <hr class="regla">
+    <button type="button" class="btn btn-outline-primary m-3 p-1">Explore the docs</button>
+  </section>
+  <section class="bg-light  col-12 col-md-4 border border-white">
+    <i class="fas fa-bolt fa-2x colorIconos"></i>
+    <h3>Official Themes</h3>
+    <p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
+    <img src="assets/img/bootstrap-themes.png" alt="" class="img-fluid">
+    <hr class="regla">
+    <button type="button" class="btn btn-outline-primary m-3 p-1">Browse themes</button>
+  </section>
+  </div>
+</article>
+
+<!-- termina el contenido tecnico -->
+
+<footer class="col- bg-light">
+  <ul>
+    <li class="col">GitHub</li>
+    <li class="col">Twitter</li>
+    <li class="col">Examples</li>
+    <li class="col">About</li>
+  </ul>
+  <p>Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the help of our contributors. Currently v4.0.0. Code licensed MIT, docs CC BY 3.0.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
